@@ -14,7 +14,10 @@ El proyecto parte de una plantilla de AI Engineering y actualmente ha documentad
 - Se registraron los intereses del estudiante y su concepto exploratorio de personalización de menú en [`company-choice.md`](../company-choice.md).
 - Se creó [`projectbrief.md`](./projectbrief.md), que resume el contexto y los posibles resultados, distinguiendo necesidades descritas e idea personal de un alcance aprobado.
 - Se creó [`techContext.md`](./techContext.md), que documenta el entorno de desarrollo, el código de ejemplo, las convenciones del repositorio y las decisiones técnicas pendientes.
-- Se actualizó la guía de la plantilla en [`README.md`](../README.md) y [`README.es.md`](../README.es.md) para reflejar que `CONTEXT.md` contiene el briefing de Brasaland y que existe un `AGENTS.md` vacío en la raíz.
+- Se actualizó la guía de la plantilla en [`README.md`](../README.md) y [`README.es.md`](../README.es.md) para reflejar que `CONTEXT.md` contiene el briefing de Brasaland y que existe `AGENTS.md` en la raíz.
+- Se añadió [`no-external-dependencies.md`](../.agents/no-external-dependencies.md), una regla Always Active contra dependencias y fuentes de datos externas sin autorización. Se revisó el contenido; no se ejecutaron pruebas, ya que es documentación de instrucciones.
+- Se añadió [`behaviour.md`](../.agents/behaviour.md), una regla Always Active que exige aprobación y notificación antes de cambios, seguir la dirección del usuario e informar archivos, líneas y razonamiento tras implementar. Se revisó el archivo; no se ejecutaron pruebas porque el cambio es documental.
+- Se actualizó [`AGENTS.md`](../AGENTS.md) para requerir consentimiento explícito del usuario antes de modificar archivos o carpetas relacionados con `CONTEXT` o `README`. Se verificó el texto de la regla; no se ejecutaron pruebas, ya que el cambio es documental.
 
 ## 3. Estado por área
 

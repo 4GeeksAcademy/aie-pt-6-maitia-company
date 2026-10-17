@@ -37,6 +37,9 @@ Leer siempre estos tres archivos antes de empezar cualquier trabajo:
   6.  Implementar los cambios.
   7.  Verificar que la implementación sea correcta.
   8.  Verificar que los cambios respondan al problema solicitado.
+- Al completar cada avance del proyecto, actualizar `memory-bank/progress.md` con el estado observado y las validaciones realizadas. No registrar como completado algo que no se haya verificado.
+- Si un cambio modifica el alcance o el comportamiento previsto del proyecto, actualizar también `memory-bank/projectbrief.md` para reflejarlo y distinguir los cambios aprobados de las propuestas.
+- Si un cambio modifica la arquitectura, las tecnologías, la configuración o cualquier otro aspecto técnico documentado, actualizar también `memory-bank/techContext.md` con el estado verificado y las decisiones pendientes que correspondan.
 - Mantener explícita la diferencia entre hechos observados, propuestas y decisiones aprobadas.
 - Limitar los cambios al objetivo solicitado y no completar decisiones que siguen pendientes.
 
@@ -45,6 +48,7 @@ Leer siempre estos tres archivos antes de empezar cualquier trabajo:
 - No presentar como aprobados un producto, MVP, arquitectura o stack de producción.
 - No tratar las tecnologías sugeridas por la plantilla —incluida FastAPI— como decisiones adoptadas para Brasaland.
 - Las observaciones técnicas describen este repositorio; no permiten afirmar que Brasaland carezca de sistemas externos.
+- No modificar `CONTEXT.md`, `CONTEXT.es.md`, `README.md`, `README.es.md` ni otros archivos o carpetas cuyo nombre o propósito sea `CONTEXT` o `README` sin el consentimiento explícito del usuario. Si una tarea parece requerir cambios en ellos, solicitar autorización antes de editarlos.
 
 ## Verificación
 
