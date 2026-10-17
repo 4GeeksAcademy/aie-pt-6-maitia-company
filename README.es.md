@@ -53,8 +53,8 @@ Estás construyendo **una sola empresa** a lo largo de muchos hitos y proyectos.
 
 > 💡 Actualmente el repositorio ofrece solo una **estructura base de carpetas y documentación**. Todavía no incluye aplicaciones ejecutables ni scripts globales en la raíz.
 >
-> - `CONTEXT.md` es un placeholder y debe sustituirse por el contexto de la empresa asignada.
-> - No existe todavía un `AGENTS.md` en la raíz.
+> - `CONTEXT.md` contiene actualmente el briefing de Brasaland; sustitúyelo por el contexto de tu empresa asignada al crear un proyecto a partir de esta plantilla.
+> - Existe un `AGENTS.md` en la raíz, pero actualmente está vacío.
 > - Existe metadata del paquete compartido en `packages/shared/package.json` (`@repo/shared-types`), pero aún no hay runner de workspace en raíz.
 
 ---
