@@ -1,8 +1,12 @@
 # Brasaland — Project Progress
 
 **Estado general:** Descubrimiento y documentación inicial  
-**Última actualización:** 2026-10-17  
+**Última actualización:** 2026-10-18  
 **Alcance de este registro:** Resume el estado evidenciado en este repositorio. No constituye un roadmap aprobado ni implica entregas empresariales ya comprometidas.
+
+## Registro de avances y modificaciones
+
+Este archivo refleja únicamente los avances y modificaciones realizados en el proyecto; no es una bitácora de cada etapa o actividad del proceso. Registra cada avance en una sola entrada breve con su fecha, resultado, archivos afectados y validaciones pertinentes. No añadas entradas separadas solo para repetir que se propuso o aprobó un plan. Distingue claramente los resultados implementados de las propuestas y señala cuando no se hayan ejecutado pruebas o comprobaciones.
 
 ## 1. Resumen del estado
 
@@ -18,6 +22,8 @@ El proyecto parte de una plantilla de AI Engineering y actualmente ha documentad
 - Se añadió [`no-external-dependencies.md`](../.agents/no-external-dependencies.md), una regla Always Active contra dependencias y fuentes de datos externas sin autorización. Se revisó el contenido; no se ejecutaron pruebas, ya que es documentación de instrucciones.
 - Se añadió [`behaviour.md`](../.agents/behaviour.md), una regla Always Active que exige aprobación y notificación antes de cambios, seguir la dirección del usuario e informar archivos, líneas y razonamiento tras implementar. Se revisó el archivo; no se ejecutaron pruebas porque el cambio es documental.
 - Se actualizó [`AGENTS.md`](../AGENTS.md) para requerir consentimiento explícito del usuario antes de modificar archivos o carpetas relacionados con `CONTEXT` o `README`. Se verificó el texto de la regla; no se ejecutaron pruebas, ya que el cambio es documental.
+- **2026-10-18 — Auditoría de proyecto:** se actualizó [`skills/proyect-audit.md`](../skills/proyect-audit.md) para incluir resumen ejecutivo, riesgos e incertidumbres, y pedir al usuario decidir si avanzar, solicitar más análisis o pausar. Se revisó el estado documentado del proyecto y se adaptó la skill; se verificó leyendo los archivos modificados. No se ejecutaron pruebas automatizadas por tratarse de documentación.
+- **2026-10-18 — Registro de progreso:** se simplificó esta sección para dejar claro que `progress.md` registra avances y modificaciones realizadas, no cada paso del proceso. Se reemplazó el registro redundante por una entrada breve con resultado y resumen del trabajo. Verificación: lectura de esta sección; no se ejecutaron pruebas automatizadas por tratarse de documentación.
 
 ## 3. Estado por área
 

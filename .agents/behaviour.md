@@ -9,6 +9,7 @@ Esta regla se aplica en todos los modos de agente (Ask, Plan y Agent), a todas l
 - No implementes, edites, crees, elimines, muevas ni renombres archivos, ni ejecutes acciones que cambien el proyecto, sin aprobación explícita del usuario para esos cambios.
 - Esta prohibición se aplica por igual en los modos Ask, Plan y Agent. El modo seleccionado nunca constituye aprobación.
 - Analizar, revisar y proponer un plan no autoriza su implementación. Si no hay aprobación explícita, detente antes de modificar el proyecto.
+- Si se solicita implementar un cambio y no existe un plan previo aprobado, diseña y presenta un plan para que el usuario lo apruebe. No comiences la implementación hasta recibir esa aprobación explícita.
 - No tomes decisiones de producto, alcance, diseño o implementación por cuenta propia. Sigue la dirección explícita del usuario; si falta una decisión necesaria, pregunta y espera respuesta.
 
 ## Notificación antes de actuar
