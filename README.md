@@ -53,8 +53,8 @@ You are building **one company** across many milestones and projects. Each top-l
 
 > 💡 This repository currently provides a **base folder structure and documentation skeleton** only. It does not include runnable apps or global scripts yet.
 >
-> - `CONTEXT.md` is a placeholder and must be replaced with your assigned company context.
-> - There is no root `AGENTS.md` yet.
+> - `CONTEXT.md` currently contains the Brasaland briefing; replace it with your assigned company context when creating a project from this template.
+> - A root `AGENTS.md` exists but is currently empty.
 > - Shared package metadata exists in `packages/shared/package.json` (`@repo/shared-types`), but no workspace runner is configured at root.
 
 ---
